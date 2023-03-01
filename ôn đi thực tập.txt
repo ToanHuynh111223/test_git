@@ -1,0 +1,48 @@
+Thẻ <!DOCTYPE html> để cho trình duyệt biết được website của bạn đang sử dụng phiên bản ngôn ngữ đánh dấu (hay còn gọi markup language) nào.
+
+HTML5 thêm mới một số thẻ như: header, footer, article, nav, section, audio, video....
+
+Thẻ meta dùng để cung cấp thông tin của website cho công cụ tìm kiếm. Một số thẻ meta tiểu biểu như: title, description, content-type, view-port...
+
+HTML semactic có nghĩa là sử dụng thẻ thích hợp nhất cho ý nghĩa của nó
+
+Div đại diện cho thẻ block, thường dùng để gom nhóm các thẻ block với nhau.
+
+Span đại diện cho thẻ inline, thường dùng để gom nhóm các thẻ inline với nhau.
+
+DOM Bên trong có root element là thẻ html, và bên trong root element có nhiều element khác là các thẻ như: head, body, div,a... -> bên trong element có attribute và children (text).
+
+SEO nghĩa là tối ưu hóa vị trí tìm kiếm trên các công cụ tìm kiếm như: Google...
+-->cách SEO một trang web đơn giản:
+
+Sử dụng đầy đủ thẻ meta
+Sử dụng thẻ sematic
+Sử dụng nhiều thẻ h1 cho tiêu đề
+Thẻ Image buộc phải có thuộc tính alt
+
+display: inline -> các item sẽ nằm trên cùng một dòng, Nếu các items vượt quá độ dài của dòng thì item sẽ xuống dòng mới
+không thể set width và height, Các inline item sẽ chỉ có thể điều chỉnh margin và padding left and right
+
+display: block -> các item luôn được xuống dòng và chiếm toàn bộ width nếu width không được set
+
+display: inline-block -> sẽ được xếp cùng một dòng như inline và set width, height, margin, padding đủ 4 hướng.
+
+Các cách viết css
+Inline: Viết trực tiếp vào thẻ bằng thuộc tính style
+Internal: Được viết trong thẻ style nằm trong thẻ head
+External: Viết ở một file khác và link vào html như dưới đây
+
+Flex box dùng để css theo 1 chiều ( chiều ngang hoặc dọc ).
+Grid dùng để css theo 2 chiều.
+
+position
+- Relative: Định vị trí tuyệt đối cho các thành phần, không gây ảnh hưởng tới vị trí ban đầu hay các thành phần khác.
+- Absolute: Giá trị này sẽ giúp định vị trí tuyệt đối cho thành phần theo thành phần bao ngoài, hoặc ít nhất là theo cửa sổ trình duyệt.
+
+Box-sizing: Khi chúng ta set một border,padding cho phần tử thì kích thước ban đầu sẽ tăng lên, border-box tính toán lại phần content sao cho content + với các phần tăng thêm sẽ bằng với kích thước mà chúng ta đặt ra ban đầu.
+
+BEM: BEM là viết tắt của Block, Element và Modifier. Đó là quy ước đặt tên CSS để viết các lớp CSS rõ ràng hơn và dễ đọc hơn.
+
+SSR - Server Side Rendering là thực hiện việc render ở phía server. Nghĩa là khi bạn truy cập vào website thì sẽ gửi yêu cầu lên server, sau đó server trả về toàn bộ mã HTML và CSS từ đó trình duyệt hiển thị cho người dùng xem.
+
+CSR - Client Side Rendering là thực hiện việc render ở phía client. Nghĩa là khi bạn truy cập vào website thì sẽ gửi yêu cầu lên server, sau đó server trả về 1 thẻ div rỗng và một số file javascript, từ những file javascript đó trình duyệt sẽ thực thi và hiển thị giao diện cho người dùng.
