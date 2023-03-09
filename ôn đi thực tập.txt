@@ -46,3 +46,5 @@ BEM: BEM là viết tắt của Block, Element và Modifier. Đó là quy ước
 SSR - Server Side Rendering là thực hiện việc render ở phía server. Nghĩa là khi bạn truy cập vào website thì sẽ gửi yêu cầu lên server, sau đó server trả về toàn bộ mã HTML và CSS từ đó trình duyệt hiển thị cho người dùng xem.
 
 CSR - Client Side Rendering là thực hiện việc render ở phía client. Nghĩa là khi bạn truy cập vào website thì sẽ gửi yêu cầu lên server, sau đó server trả về 1 thẻ div rỗng và một số file javascript, từ những file javascript đó trình duyệt sẽ thực thi và hiển thị giao diện cho người dùng.
+
+br_1
